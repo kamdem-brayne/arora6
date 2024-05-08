@@ -1,0 +1,75 @@
+header{
+    border:1px solid black;
+    background-image: url("cf.png");
+    color:black;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 50px;
+}
+#r1{
+    border:1px solid transparent black;
+    height: 290px;
+    width: 100%;
+    margin:15px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-image:url("nuage.png")
+}
+.gauche{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.aa{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+.bb{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+.cc{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+.dd{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+.ee{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+.ff{
+    border: 1px solid black;
+    width:100%;
+    margin: 3px;
+    border-radius: 30px;
+}
+body{
+    background-color: burlywood;
+}
+#r2{
+    border:1px solid transparent black;
+    height: 290px;
+    width: 100%;
+    margin:15px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-image:url("nuage.png")
+}

@@ -1,0 +1,89 @@
+body{
+    background-image: url("fruit.jpg");
+    background-position: center;
+}
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+   border: 1px solid transparent;
+    height:20vh;
+    border-radius: 30px;
+    background-position: center;
+}
+.logo a{
+    
+    padding: 0 20px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+ul{
+    list-style: none;
+    float:right;
+    display:flex;
+    margin-top:20px;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:10px 20px;
+    text-transform: uppercase;
+    border:1px solid wheat;
+    margin:10px;
+    font-weight:500;
+    transition:0.6s ease;
+    border-radius: 10px;
+background-color: rgb(197, 131, 33);
+}
+ul li a:hover{
+  background:rgb(209, 245, 250);
+  color:black;
+}
+main{
+    width: 100%;
+    height: 20vh;
+    border:1px solid transparent black;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-position: center;
+    padding: 20px;
+}
+.mt{
+    font-size: 100px;
+}
+form{
+    align-items: center;
+    border:3px solid black;
+    width: 30%;
+    padding: 10px ;
+    border-radius: 20px;
+    margin: 0px 470px;
+}
+input[type='text'],input[type='email'],input[type='submit']{
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+}
+input[type='radio']{
+    margin-left: 1px;
+}
+select{
+    width: 100%;
+    padding: 5px;
+}
+.der{
+    border:1px solid transparent black;
+    margin-top: 60px;
+}
